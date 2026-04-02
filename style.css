@@ -1,5 +1,5 @@
-/* Basic Reset */
 
+/* Basic Reset */
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: beige;
+    background-color: lightcyan;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,6 +119,13 @@ body {
     transition: width 0.3s ease;
 }
 
+footer {
+    position: fixed;
+    bottom: 10px;
+    width: 40%;
+    text-align: center;
+}
+
 /* Result Screen */
 #result-screen h1 {
     color: chocolate;
@@ -159,6 +166,7 @@ button:hover {
     background-color: #d45b28;
 }
 
+
 /* Responsive Design */
 @media (max-width:500px){
     /* Whenever we hit 500px or below, implement the styles as follows: */
@@ -182,4 +190,6 @@ button:hover {
         padding: 12px 25px;
         font-size: 1rem;
     }
+
+    
 }
